@@ -1,0 +1,60 @@
+
+@import "common";
+
+
+
+#home {
+
+  .ban {
+    width: 100%;
+    height: 100px;
+  }
+
+  & div.list a{
+    font-size: 1em;
+    line-height: .8em;
+  }
+}
+
+#module {
+
+  .ban {
+    width: 100%;
+    height: 170px;
+  }
+
+  & div.list a{
+    font-size: 1em;
+    line-height: .8em;
+  }
+
+  span {
+    font-size: 2.8em;
+  }
+
+  .table {
+    .col {
+      border: solid 1px #F0F0F0;
+    }
+
+    .col-no-left {
+      border-left: 0;
+    }
+    .col-no-top {
+      border-top: 0;
+    }
+  }
+
+}
+
+#account {
+  a {
+    line-height: .6em;
+    font-size: 1.1em;
+
+    i {
+      font-size: 1.5em;
+    }
+
+  }
+}

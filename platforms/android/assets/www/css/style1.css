@@ -1,0 +1,31 @@
+/* Empty. Add your own CSS if you like */
+
+
+
+.testa {
+  width: 65px;
+  height: 65px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: .8em;
+}
+
+.testa span {
+  width: 40px;
+  height: 40px;
+  padding-top: 6px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  font-size: 26px;
+  display: block;
+  margin: 0 auto;
+}
+
+.testa label {
+  display: block;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+#

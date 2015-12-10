@@ -1,0 +1,75 @@
+/* line 4, ../../scss/_common.scss */
+.my-button-square span, .my-button-square label {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 17, ../../scss/_common.scss */
+.my-button-square {
+  font-size: 0.8em;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+}
+/* line 20, ../../scss/_common.scss */
+.my-button-square span {
+  font-size: 26px;
+  width: 40px;
+  height: 40px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  padding-top: 6px;
+}
+/* line 29, ../../scss/_common.scss */
+.my-button-square label {
+  padding-top: 5px;
+}
+
+/* line 8, ../../scss/style.scss */
+#home .ban {
+  width: 100%;
+  height: 100px;
+}
+/* line 13, ../../scss/style.scss */
+#home div.list a {
+  font-size: 1em;
+  line-height: .8em;
+}
+
+/* line 21, ../../scss/style.scss */
+#module .ban {
+  width: 100%;
+  height: 170px;
+}
+/* line 26, ../../scss/style.scss */
+#module div.list a {
+  font-size: 1em;
+  line-height: .8em;
+}
+/* line 31, ../../scss/style.scss */
+#module span {
+  font-size: 2.8em;
+}
+/* line 36, ../../scss/style.scss */
+#module .table .col {
+  border: solid 1px #F0F0F0;
+}
+/* line 40, ../../scss/style.scss */
+#module .table .col-no-left {
+  border-left: 0;
+}
+/* line 43, ../../scss/style.scss */
+#module .table .col-no-top {
+  border-top: 0;
+}
+
+/* line 51, ../../scss/style.scss */
+#account a {
+  line-height: .6em;
+  font-size: 1.1em;
+}
+/* line 55, ../../scss/style.scss */
+#account a i {
+  font-size: 1.5em;
+}

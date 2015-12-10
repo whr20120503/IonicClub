@@ -1,0 +1,35 @@
+
+@import "compass/css3";
+
+%my-button-style {
+  display: block;
+  margin: 0 auto;
+
+}
+
+@mixin my-button-base($width,$height,$font-size){
+  font-size: $font-size;
+  width: $width;
+  height: $height;
+
+}
+
+.my-button-square {
+  @include my-button-base(65px,65px,.8em);
+  text-align: center;
+  span {
+    @include my-button-base(40px,40px,26px);
+    @include border-radius(20px);
+    @extend %my-button-style;
+    padding-top: 6px;
+
+
+  }
+
+  label {
+    @extend %my-button-style;
+    padding-top: 5px;
+
+  }
+
+}
